@@ -24,10 +24,12 @@ def play(songs)
   end
   if input == songs[i]
     return songs[i]
-  elsif input == 0...songs.length
-    return
+  elsif input.to_i == 0...songs.length
+    return songs[i]
+  else
+
   end
-  
+
 end
 
 def exit_jukebox
