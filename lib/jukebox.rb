@@ -23,10 +23,10 @@ def play(songs)
     puts "Playing #{songs[input.to_i - 1]}"
   end
   i = 0
-  for i in 0...songs.length do
+    for i in 0...songs.length do
     if input == songs[i]
       return songs[i]
-  end
+    end
   end
 
 
