@@ -9,7 +9,7 @@ end
 
 def list(songs)
   i = 0
-  array = []
+  
   for i in 0...songs.length do
     puts "#{i+1}. #{songs[i]}"
   end
@@ -18,6 +18,15 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   input = gets.strip
+  array = []
+  for i in 0...songs.length do
+    array.push(songs[i])
+  end
+  if input == songs[i] 
+    return songs[i]
+  elsif input == 0...songs.length
+    return 
+  end 
   
 end
 
