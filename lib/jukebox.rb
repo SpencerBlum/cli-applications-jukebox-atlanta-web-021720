@@ -33,12 +33,14 @@ def exit_jukebox
 end
 
 
-def run
+def run(songs)
   puts "Please enter a command:"
   input = gets.chomp
   if input.downcase == "exit"
     exit_jukebox
-  elsif input == "help"
+  elsif input.downcase == "help"
+    help
+  elif inpt.
   end
 
 end
