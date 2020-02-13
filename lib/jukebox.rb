@@ -38,7 +38,7 @@ def run
   input = gets.chomp
   if input.downcase == "exit"
     exit_jukebox
-  if input == "help"
+  elsif input == "help"
   end
 
 end
