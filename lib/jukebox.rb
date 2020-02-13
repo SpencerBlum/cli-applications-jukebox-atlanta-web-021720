@@ -40,7 +40,12 @@ def run(songs)
     exit_jukebox
   elsif input.downcase == "help"
     help
-  elif inpt.
+  elsif input.downcase == "list"
+    list(songs)
+  elsif input.downcase == "play"
+    play(songs)
+  else
+    puts "Invalid entry"
   end
 
 end
