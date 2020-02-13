@@ -22,12 +22,11 @@ def play(songs)
   for i in 0...songs.length do
     array.push(songs[i])
   end
-  if input == songs[i]
-    return songs[i]
-  elsif input.to_i == 0...songs.length
-    return songs[i]
+  if input == array[i]
+    return array[i]
+  elsif input.to_i == 0...array.length
+    return array[i]
   else
-
   end
 
 end
