@@ -28,9 +28,6 @@ def play(songs)
       return songs[i]
       end
     end
-  end
-
-
 end
 
 def exit_jukebox
