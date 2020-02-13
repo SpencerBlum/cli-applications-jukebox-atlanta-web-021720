@@ -36,7 +36,7 @@ end
 def run
   puts "Please enter a command:"
   input = gets.chomp
-  if input.lowercase == "exit"
+  if input.downcase == "exit"
     exit_jukebox
   if input == "help"
   end
