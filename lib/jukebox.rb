@@ -22,6 +22,14 @@ def play(songs)
   if input.to_i >= 1 && input.to_i <= songs.length
     puts "Playing #{songs[input.to_i - 1]}"
   end
+  i = 0 
+  for i in 0...songs.length do
+    if input == songs[i]
+      return songs[i]
+  end
+  end
+
+  
 end
 
 def exit_jukebox
