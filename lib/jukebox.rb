@@ -18,17 +18,10 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   input = gets.strip
-  array = []
-  for i in 0...songs.length do
-    array.push(songs[i])
-  end
-  if input == array[i]
-    return array[i]
-  elsif input.to_i == 0...array.length
-    return array[i]
-  else
-  end
 
+  if input.to_i >= 1 && input.to_i <= songs.length
+    puts "Playing #{songs[response.to_i - 1]}"
+  end
 end
 
 def exit_jukebox
