@@ -9,7 +9,7 @@ end
 
 def list(songs)
   i = 0
-  
+
   for i in 0...songs.length do
     puts "#{i+1}. #{songs[i]}"
   end
@@ -22,11 +22,11 @@ def play(songs)
   for i in 0...songs.length do
     array.push(songs[i])
   end
-  if input == songs[i] 
+  if input == songs[i]
     return songs[i]
   elsif input == 0...songs.length
-    return 
-  end 
+    return
+  end
   
 end
 
