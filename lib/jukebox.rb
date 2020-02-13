@@ -22,7 +22,7 @@ def play(songs)
   if input.to_i >= 1 && input.to_i <= songs.length
     puts "Playing #{songs[input.to_i - 1]}"
   elsif songs.include?(input)
-    puts "playing #{songs.find{|song| song == response}}"
+    puts "playing #{songs.find{|song| song == input}}"
   end
 end
 
