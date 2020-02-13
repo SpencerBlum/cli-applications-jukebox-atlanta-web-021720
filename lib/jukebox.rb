@@ -24,8 +24,9 @@ def play(songs)
   end
   i = 0
     for i in 0...songs.length do
-    if input == songs[i]
+      if input == songs[i]
       return songs[i]
+      end
     end
   end
 
